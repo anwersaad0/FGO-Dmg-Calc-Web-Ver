@@ -6,122 +6,130 @@
         <link rel="icon" href="Dmg_up.png" />
     </head>
     <body>
-        <div>
-            <div id="pageTitles">
-                <h1>Red Card Go Boom</h1>
-                <h3>A Fate Grand Order NP Damage Calculator</h3>
-            </div>
+        <header>
+            <p id="credit">Made by anwersaad0</p>
+            <a id="GitLink" href="https://github.com/anwersaad0/FGO-Dmg-Calc-Web-Ver">
+                <img src="GitHub-Mark-32px.png">
+            </a>
+        </header>
+        <div id="mainDiv">
             <div>
-                <select name="servants" id="servants">
-                    <option value="Select Servant">Select Servant</option>
-                </select>
-                <select name="cardtype" id="cardtype">
-                    <option value="Select Card Type">Select Card Type</option>
-                    <option value="Buster">Buster</option>
-                    <option value="Arts">Arts</option>
-                    <option value="Quick">Quick</option>
-                </select> <br><br>
-            </div>
-            <div id="textfields">
-                <div>
-                    <div class="labels">
-                        <label for="atkEntry">Atk Stat:</label>
-                        <label for="npMultEntry" id="npMultLabel">NP Mult %:</label>
-                    </div>
-                    <div class="entries">
-                        <input type="number" id="atkEntry" name="atkEntry">
-                        <input type="number" id="npMultEntry" name="npMultEntry">
-                    </div>
+                <div id="pageTitles">
+                    <h1>Red Card Go Boom</h1>
+                    <h3>A Fate Grand Order NP Damage Calculator</h3>
                 </div>
                 <div>
-                    <div class="labels">
-                        <label for="atkPercEntry">Atk% Up:</label>
-                        <label for="npPercEntry" id="npPercLabel">NP% Up</label>
+                    <select name="servants" id="servants">
+                        <option value="Select Servant">Select Servant</option>
+                    </select>
+                    <select name="cardtype" id="cardtype">
+                        <option value="Select Card Type">Select Card Type</option>
+                        <option value="Buster">Buster</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Quick">Quick</option>
+                    </select> <br><br>
+                </div>
+                <div id="textfields">
+                    <div>
+                        <div class="labels">
+                            <label for="atkEntry">Atk Stat:</label>
+                            <label for="npMultEntry" id="npMultLabel">NP Mult %:</label>
+                        </div>
+                        <div class="entries">
+                            <input type="number" id="atkEntry" name="atkEntry">
+                            <input type="number" id="npMultEntry" name="npMultEntry">
+                        </div>
                     </div>
-                    <div class="entries">
-                        <input type="number" id="atkPercEntry" name="atkPercEntry">
-                        <input type="number" id="npPercEntry" name="npPercEntry">
+                    <div>
+                        <div class="labels">
+                            <label for="atkPercEntry">Atk% Up:</label>
+                            <label for="npPercEntry" id="npPercLabel">NP% Up:</label>
+                        </div>
+                        <div class="entries">
+                            <input type="number" id="atkPercEntry" name="atkPercEntry">
+                            <input type="number" id="npPercEntry" name="npPercEntry">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="labels">
+                            <label for="defEntry">Def% Down:</label>
+                            <label for="cardPercEntry" id="cardPercLabel">Card% Up:</label>
+                        </div>
+                        <div class="entries">
+                            <input type="number" id="defEntry" name="defEntry">
+                            <input type="number" id="cardPercEntry" name="cardPercEntry">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="labels">
+                            <label for="traitEntry">Trait% Up:</label>
+                            <label for="cardResEntry" id="cardResLabel">Card% Debuff:</label>
+                        </div>
+                        <div class="entries">
+                            <input type="number" id="traitEntry" name="traitEntry">
+                            <input type="number" id="cardResEntry" name="cardResEntry">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="labels">
+                            <label for="flatEntry">Flat Atk+:</label>
+                            <label for="npTraitEntry" id="npTraitLabel">NP Trait%:</label>
+                        </div>
+                        <div class="entries">
+                            <input type="number" id="flatEntry" name="flatEntry">
+                            <input type="number" id="npTraitEntry" name="npTraitEntry">
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="labels">
-                        <label for="defEntry">Def% Down:</label>
-                        <label for="cardPercEntry" id="cardPercLabel">Card% Up:</label>
-                    </div>
-                    <div class="entries">
-                        <input type="number" id="defEntry" name="defEntry">
-                        <input type="number" id="cardPercEntry" name="cardPercEntry">
-                    </div>
+                <div id="affinitySelectors">
+                    <select name="effective" id="effective">
+                        <option value = "Select Affinity">Select Affinity</option>
+                        <option value = "Neutral">Neutral</option>
+                        <option value = "Weak">Weak (x0.5)</option>
+                        <option value = "Zerk/Ego/Pre">Zerk/Ego/Pre (x1.5)</option>
+                        <option value = "Effective">Effective (x2)</option>
+                    </select>
+                    <select name="manEarthSky" id="manEarthSky">
+                        <option value="Man/Earth/Aky Affinity">Man/Earth/Sky Affinity</option>
+                        <option value="Neutral">Neutral</option>
+                        <option value="Not Effective">Not Effective (x0.9)</option>
+                        <option value="Effective">Effective (x1.1)</option>
+                    </select>
                 </div>
-                <div>
-                    <div class="labels">
-                        <label for="traitEntry">Trait% Up:</label>
-                        <label for="cardResEntry" id="cardResLabel">Card% Debuff:</label>
-                    </div>
-                    <div class="entries">
-                        <input type="number" id="traitEntry" name="traitEntry">
-                        <input type="number" id="cardResEntry" name="cardResEntry">
-                    </div>
+                <div id="buttons">
+                    <button type="reset" id="reset">Reset</button>
+                    <button type="calculate" id="calculate">Calculate</button>
                 </div>
-                <div>
-                    <div class="labels">
-                        <label for="flatEntry">Flat Atk+:</label>
-                        <label for="npTraitEntry" id="npTraitLabel">NP Trait%:</label>
-                    </div>
-                    <div class="entries">
-                        <input type="number" id="flatEntry" name="flatEntry">
-                        <input type="number" id="npTraitEntry" name="npTraitEntry">
-                    </div>
+                <div id="overallDmgDiv">
+                    <label id="overallLabel" for="overallDmg">Estimated Damage:</label>
+                    <input type="number" id="overallDmg" name="overallDmg" disabled>
                 </div>
             </div>
-            <div id="affinitySelectors">
-                <select name="effective" id="effective">
-                    <option value = "Select Affinity">Select Affinity</option>
-                    <option value = "Neutral">Neutral</option>
-                    <option value = "Weak">Weak (x0.5)</option>
-                    <option value = "Zerk/Ego/Pre">Zerk/Ego/Pre (x1.5)</option>
-                    <option value = "Effective">Effective (x2)</option>
-                </select>
-                <select name="manEarthSky" id="manEarthSky">
-                    <option value="Man/Earth/Aky Affinity">Man/Earth/Sky Affinity</option>
-                    <option value="Neutral">Neutral</option>
-                    <option value="Not Effective">Not Effective (x0.9)</option>
-                    <option value="Effective">Effective (x1.1)</option>
-                </select>
+    
+            <div id="infoDiv">
+                <h4>Calculator Instructions</h4>
+                <p>- Select a servant using the dropdown menu and add in any extra stat boosts, 
+                    enemy debuffs, and affinities, and then select calculate to see the expected damage.</p>
+                <h4>Stat Details</h4>
+                <p>- Atk Stat: A servant's base atk. Is preset upon selecting a servant based on their max level
+                    (not including grails or Fous).
+                </p>
+                <p>- NP Mult%: The damage multiplier from a servant's NP. Is preset to NP1 value with any upgrades upon 
+                    selecting a servant.
+                </p>
+                <p>- Atk% Up: Any atk stat upgrades applied to a servant.</p>
+                <p>- NP% Up: Any NP multiplier upgrades applied to a servant.</p>
+                <p>- Def% Down: Any defense debuffs applied to an enemy.</p>
+                <p>- Card% Up: Upgrades to damage based on the NP's card type (ex. Buster Up, Arts Up, Quick Up).</p>
+                <p>- Trait% Up: Upgrades that increase damage against specific enemy traits (ex. Apply Special Attack [Divine])</p>
+                <p>- Card% Debuff: Any relevant card resistance debuffs applied to an enemy.</p>
+                <p>- Flat Atk+: Flat increase to overall damage.</p>
+                <p>- NP Trait%: Upgrade applied during use of an NP against enemies with specific traits.</p>
+                <h4>Extra Notes</h4>
+                <p>- Preset stats for each servant include Atk at their respective max level, NP multiplier at NP1, and NP card type.</p>
+                <p>- Any extra stats that may be supplied by a servant's NP are not included and will need to be put in manually.</p>
+                <p>- Overall damage calculated is only an estimated damage value, and the damage an NP deals in-game will often be slightly lower or slightly higher than the estimate due to the nature of damage rolls.</p>
             </div>
-            <div id="buttons">
-                <button type="reset" id="reset">Reset</button>
-                <button type="calculate" id="calculate">Calculate</button>
-            </div>
-            <div id="overallDmgDiv">
-                <label id="overallLabel" for="overallDmg">Estimated Damage:</label>
-                <input type="number" id="overallDmg" name="overallDmg" disabled>
-            </div>
-        </div>
-
-        <div id="infoDiv">
-            <h4>Calculator Instructions</h4>
-            <p>- Select a servant using the dropdown menu and add in any extra stat boosts, 
-                enemy debuffs, and affinities, and then select calculate to see the expected damage.</p>
-            <h4>Stat Details</h4>
-            <p>- Atk Stat: A servant's base atk. Is preset upon selecting a servant based on their max level
-                (not including grails or Fous).
-            </p>
-            <p>- NP Mult%: The damage multiplier from a servant's NP. Is preset to NP1 value with any upgrades upon 
-                selecting a servant.
-            </p>
-            <p>- Atk% Up: Any atk stat upgrades applied to a servant.</p>
-            <p>- NP% Up: Any NP multiplier upgrades applied to a servant.</p>
-            <p>- Def% Down: Any defense debuffs applied to an enemy.</p>
-            <p>- Card% Up: Upgrades to damage based on the NP's card type (ex. Buster Up, Arts Up, Quick Up).</p>
-            <p>- Trait% Up: Upgrades that increase damage against specific enemy traits (ex. Apply Special Attack [Divine])</p>
-            <p>- Card% Debuff: Any relevant card resistance debuffs applied to an enemy.</p>
-            <p>- Flat Atk+: Flat increase to overall damage.</p>
-            <p>- NP Trait%: Upgrade applied during use of an NP against enemies with specific traits.</p>
-            <h4>Extra Notes</h4>
-            <p>- Preset stats for each servant include Atk at their respective max level, NP multiplier at NP1, and NP card type.</p>
-            <p>- Any extra stats that may be supplied by a servant's NP are not included and will need to be put in manually.</p>
-            <p>- Overall damage calculated is only an estimated damage value, and the damage an NP deals in-game will often be slightly lower or slightly higher than the estimate.</p>
         </div>
     </body>
     <script src="fgoCalc.js"></script>
