@@ -1,0 +1,103 @@
+.labels {
+    margin: 5px 0px;
+}
+
+.entries {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 20px;
+}
+
+label {
+    margin: 5px 30px 0px 0px;
+}
+
+#npMultLabel {
+    margin-left: 81px;
+}
+
+#npPercLabel {
+    margin-left: 73px;
+}
+
+#cardPercLabel {
+    margin-left: 54px;
+}
+
+#cardResLabel {
+    margin-left: 66px;
+}
+
+#npTraitLabel {
+    margin-left: 73px;
+}
+
+select {
+    width: 150px;
+}
+
+#overallDmgDiv {
+    margin-top: 20px;
+}
+
+#affinitySelectors {
+    margin-bottom: 20px;
+}
+
+#pageTitles {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#overallLabel {
+    margin-right: 5px;
+}
+
+button {
+    width: 128px;
+    height: 48px;
+    border-radius: 18px;
+    border: none;
+    margin-right: 20px;
+}
+
+#reset {
+    box-shadow: 0 6px rgb(217, 86, 86);
+    background-color: rgb(234, 86, 86);
+}
+
+#reset:hover {
+    background-color: rgb(251, 98, 98);
+}
+
+#reset:active {
+    box-shadow: 0 3px rgb(217, 86, 86);
+    transform: translateY(3px);
+}
+
+#calculate {
+    box-shadow: 0 6px rgb(90, 145, 218);
+    background-color: rgb(96, 157, 235);
+}
+
+#calculate:hover {
+    background-color: rgb(102, 169, 252)
+}
+
+#calculate:active {
+    box-shadow: 0 3px rgb(90, 145, 218);
+    transform: translateY(3px);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 500px;
+}
+
+#infoDiv {
+    background-color: lightgray;
+    border-radius: 24px;
+    padding: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
