@@ -181,3 +181,4 @@ servantSelector.addEventListener('change', function(e) {
 
 resetBtn.addEventListener('click', resetEntries);
 calcBtn.addEventListener('click', calculate);
+//
