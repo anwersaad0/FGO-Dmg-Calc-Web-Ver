@@ -12,6 +12,7 @@
                 <img src="GitHub-Mark-32px.png">
             </a>
         </header>
+
         <div id="mainDiv">
             <div id="calcDiv">
                 <div id="pageTitles">
@@ -30,54 +31,74 @@
                     </select> <br><br>
                 </div>
                 <div id="textfields">
-                    <div>
-                        <div class="labels">
+                    <div id="row">
+                        <div class="rowHalves">
                             <label for="atkEntry">Atk Stat:</label>
+                            <div>
+                                <input type="number" id="atkEntry" name="atkEntry">
+                            </div>
+                        </div>
+                        <div class="rowHalves">
                             <label for="npMultEntry" id="npMultLabel">NP Mult %:</label>
-                        </div>
-                        <div class="entries">
-                            <input type="number" id="atkEntry" name="atkEntry">
-                            <input type="number" id="npMultEntry" name="npMultEntry">
+                            <div>
+                                <input type="number" id="npMultEntry" name="npMultEntry">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="labels">
+                    <div id="row">
+                        <div class="rowHalves">
                             <label for="atkPercEntry">Atk% Up:</label>
+                            <div>
+                                <input type="number" id="atkPercEntry" name="atkPercEntry">
+                            </div>
+                        </div>
+                        <div class="rowHalves">
                             <label for="npPercEntry" id="npPercLabel">NP% Up:</label>
-                        </div>
-                        <div class="entries">
-                            <input type="number" id="atkPercEntry" name="atkPercEntry">
-                            <input type="number" id="npPercEntry" name="npPercEntry">
+                            <div>
+                                <input type="number" id="npPercEntry" name="npPercEntry">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="labels">
+                    <div id="row">
+                        <div class="rowHalves">
                             <label for="defEntry">Def% Down:</label>
+                            <div>
+                                <input type="number" id="defEntry" name="defEntry">
+                            </div>
+                        </div>
+                        <div class="rowHalves">
                             <label for="cardPercEntry" id="cardPercLabel">Card% Up:</label>
-                        </div>
-                        <div class="entries">
-                            <input type="number" id="defEntry" name="defEntry">
-                            <input type="number" id="cardPercEntry" name="cardPercEntry">
+                            <div>
+                                <input type="number" id="cardPercEntry" name="cardPercEntry">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="labels">
+                    <div id="row">
+                        <div class="rowHalves">
                             <label for="traitEntry">Trait% Up:</label>
-                            <label for="cardResEntry" id="cardResLabel">Card% Debuff:</label>
+                            <div>
+                                <input type="number" id="traitEntry" name="traitEntry">
+                            </div>
                         </div>
-                        <div class="entries">
-                            <input type="number" id="traitEntry" name="traitEntry">
-                            <input type="number" id="cardResEntry" name="cardResEntry">
+                        <div class="rowHalves">
+                            <label for="cardResEntry" id="cardResLabel">Card% Debuff:</label>
+                            <div>
+                                <input type="number" id="cardResEntry" name="cardResEntry">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="labels">
+                    <div id="row">
+                        <div class="rowHalves">
                             <label for="flatEntry">Flat Atk+:</label>
-                            <label for="npTraitEntry" id="npTraitLabel">NP Trait%:</label>
+                            <div>
+                                <input type="number" id="flatEntry" name="flatEntry">
+                            </div>
                         </div>
-                        <div class="entries">
-                            <input type="number" id="flatEntry" name="flatEntry">
-                            <input type="number" id="npTraitEntry" name="npTraitEntry">
+                        <div class="rowHalves">
+                            <label for="npTraitEntry" id="npTraitLabel">NP Trait%:</label>
+                            <div>
+                                <input type="number" id="npTraitEntry" name="npTraitEntry">
+                            </div>
                         </div>
                     </div>
                 </div>
