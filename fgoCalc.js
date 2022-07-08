@@ -14,10 +14,7 @@ const MAN_EARTH_SKY_WEAK_MOD = 0.9;
 
 const cardTypes = ["Buster", "Arts", "Quick"];
 
-const servantNames = [];
-const servantCards = [];
-const servantAtks = [];
-const npPercList = [];
+const servants = [];
 
 var dmg = 0;
 var atk, flat, atkPerc, cardMod, cardPerc, cardRes,
@@ -25,6 +22,7 @@ npMult, npPerc, defPerc, effMod, traitPerc, npTraitPerc, manEarthSkyMod;
 
 //establish html imports
 const servantSelector = document.getElementById('servants');
+const classSelector = document.getElementById('servantClass');
 const cardTypeSelector = document.getElementById('cardtype');
 const effSelector = document.getElementById('effective');
 const manEarthSkySelector = document.getElementById('manEarthSky');
@@ -52,6 +50,15 @@ const overallDmgEntry = document.getElementById("overallDmg");
 overallDmgEntry.value = 0;
 
 //end of establishing html imports
+
+//establish servant class
+function Servant(sName, sClass, card, atk, np1) {
+    this.sName = sName;
+    this.sClass = sClass;
+    this.card = card;
+    this.atk = atk;
+    this.np1 = np1;
+}
 
 //establish functions
 function getValues() {
@@ -136,6 +143,30 @@ function changeManEarthSky() {
     console.log(manEarthSkyMod);
 }
 
+function addAllServants() {
+    servantSelector.length = 1;
+
+    for (let i = 0; i < servants.length; i++) {
+        var option = document.createElement('option');
+        option.text = servants[i].sName;
+        servantSelector.add(option, i + 1);
+    }
+}
+
+function addSpecificServants(className) {
+    servantSelector.length = 1;
+
+    for (let i = 0; i < servants.length; i++) { 
+        
+        if (servants[i].sClass == className) {   
+            var option = document.createElement('option'); 
+            option.text = servants[i].sName;
+            servantSelector.add(option, i + 1);
+        }
+    }
+
+}
+
 manEarthSkySelector.addEventListener('change', changeManEarthSky);
 
 getServantData();
@@ -143,28 +174,33 @@ getServantData();
 async function getServantData() {
     const response = await fetch('servantdata.csv');
     const data = await response.text();
-    //console.log(data);
 
     const table = data.split('\n').slice(1);
     table.forEach(row => {
         const comp = row.split(',');
-        servantNames.push(comp[0]);
-        servantCards.push(comp[1]);
-        servantAtks.push(comp[2]);
-        npPercList.push(comp[3]);
+
+        servants.push(new Servant(comp[0], comp[1].trimStart(), comp[2], comp[3], comp[4]));
+
     });
     
-    for (let i = 0; i < servantNames.length; i++) {
-        var option = document.createElement('option');
-        option.text = servantNames[i];
-        servantSelector.add(option, i + 1);
-    }
+    
+
 }
 
+classSelector.addEventListener('change', function(e) {
+
+    if (classSelector.value == "All Classes") {
+        addAllServants();
+    } else {
+        addSpecificServants(classSelector.value);
+    }
+
+});
+
 servantSelector.addEventListener('change', function(e) {
-    for (let i = 0; i < servantNames.length; i++) {
-        if (servantSelector.value == servantNames[i]) {
-            cardTypeSelector.selectedIndex = parseInt(servantCards[i]);
+    for (let i = 0; i < servants.length; i++) {
+        if (servantSelector.value == servants[i].sName) {
+            cardTypeSelector.selectedIndex = parseInt(servants[i].card);
             changeCard();
 
             effSelector.selectedIndex = 1;
@@ -173,8 +209,8 @@ servantSelector.addEventListener('change', function(e) {
             manEarthSkySelector.selectedIndex = 1;
             changeManEarthSky();
 
-            atkEntry.value = parseInt(servantAtks[i]);
-            npMultEntry.value = parseInt(npPercList[i]);
+            atkEntry.value = parseInt(servants[i].atk);
+            npMultEntry.value = parseInt(servants[i].np1);
         }
     }
 });

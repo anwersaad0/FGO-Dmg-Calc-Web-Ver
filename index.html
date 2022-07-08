@@ -20,15 +20,42 @@
                     <h3>A Fate Grand Order NP Damage Calculator</h3>
                 </div>
                 <div>
+                    <select name="servantClass" id="servantClass">
+                        <option value="Select Class">Select Class</option>
+                        <option value="All Classes">All Classes</option>
+                        <option value="Saber">Saber</option>
+                        <option value="Archer">Archer</option>
+                        <option value="Lancer">Lancer</option>
+                        <option value="Rider">Rider</option>
+                        <option value="Caster">Caster</option>
+                        <option value="Assassin">Assassin</option>
+                        <option value="Berserker">Berserker</option>
+                        <option value="Ruler">Ruler</option>
+                        <option value="Avenger">Avenger</option>
+                        <option value="Moon Cancer">Moon Cancer</option>
+                        <option value="Alter Ego">Alter Ego</option>
+                        <option value="Foreigner">Foreigner</option>
+                        <option value="Pretender">Pretender</option>
+                    </select>
                     <select name="servants" id="servants">
                         <option value="Select Servant">Select Servant</option>
-                    </select>
+                    </select> <br><br>
+                </div>
+                <div>
                     <select name="cardtype" id="cardtype">
                         <option value="Select Card Type">Select Card Type</option>
                         <option value="Buster">Buster</option>
                         <option value="Arts">Arts</option>
                         <option value="Quick">Quick</option>
-                    </select> <br><br>
+                    </select>
+                    <select name="npLevel" id="npLevel">
+                        <option value="Select NP Level">Select NP Level</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                 </div>
                 <div id="textfields">
                     <div id="row">
@@ -150,6 +177,14 @@
                 <p>- Preset stats for each servant include Atk at their respective max level, NP multiplier at NP1, and NP card type.</p>
                 <p>- Any extra stats that may be supplied by a servant's NP are not included and will need to be put in manually.</p>
                 <p>- Overall damage calculated is only an estimated damage value, and the damage an NP deals in-game will often be slightly lower or slightly higher than the estimate due to the nature of damage rolls.</p>
+            </div>
+
+            <div id="updatesDiv">
+                <h4>Recent Updates (7/7/2021)</h4>
+                <p>- Added a class selector to change the servant selector's options in order to more easily find a specific servant</p>
+                <p>- (WIP) added a selector for NP levels. Will become functional in a later update.</p>
+                <p>- Made changes to the js script to pull from csv more cleanly.</p>
+                <p>- Updated servant list</p>
             </div>
         </div>
     </body>
