@@ -1,113 +1,113 @@
-Name, Class, CardType, Atk, NpPerc
-Altria Pendragon, Saber, 1, 11221, 400
-Altria Pendragon (Alter), Saber, 1, 10248, 450
-Altria Pendragon (Lily), Saber, 1, 7726, 400
-Nero Claudius, Saber, 2, 9449, 600
-Siegfried, Saber, 1, 8181, 400
-Gaius Julius Caesar, Saber, 3, 7497, 1600
-Altera, Saber, 1, 12343, 400
-EMIYA, Archer, 1, 9398, 400
-Gilgamesh, Archer, 1, 12280, 400
-Robin Hood, Archer, 2, 6715, 900
-Atalante, Archer, 3, 8633, 800
-Euryale, Archer, 2, 7032, 1200
-Arash, Archer, 1, 5816, 800
-Cu Chulainn, Lancer, 3, 7239, 1600
-Elisabeth Bathory, Lancer, 1, 9122, 400
-Cu Chulainn (Prototype), Lancer, 3, 7082, 1600
-Romulus, Lancer, 1, 7239, 300
-Medusa, Rider, 3, 7200, 800
-Georgios, Rider, 2, 5236, 900
-Edward Teach, Rider, 1, 6188, 400
-Ushiwakamaru, Rider, 3, 7076, 1600
-Alexander, Rider, 3, 7356, 800
-Marie Antoinette, Rider, 3, 8293, 800
-Saint Martha, Rider, 1, 8014, 400
-Medea, Caster, 2, 7418, 600
-Gilles de Rais (Caster), Caster, 1, 6514, 300
-William Shakespeare, Caster, 1, 5798, 400
-Mephistopheles, Caster, 1, 6839, 400
-Cu Chulainn (Caster), Caster, 1, 6580, 400
-Sasaki Kojirou, Assassin, 3, 5735, 1600
-Hassan of the Cursed Arm, Assassin, 3, 6280, 1600
-Jing Ke, Assassin, 3, 7207, 1600
-Charles-Henri Sanson, Assassin, 1, 5456, 800
-Phantom of the Opera, Assassin, 2, 5654, 600
-Carmilla, Assassin, 1, 9408, 800
-Heracles, Berserker, 1, 10655, 600
-Lancelot, Berserker, 3, 10477, 600
-Lu Bu Fengxian, Berserker, 1, 8119, 600
-Spartacus, Berserker, 1, 5073, 400
-Sakata Kintoki, Berserker, 1, 12712, 800
-Vlad III, Berserker, 2, 11499, 1200
-Darius, Berserker, 1, 7608, 400
-Kiyohime, Berserker, 1, 6644, 300
-Eric Bloodaxe, Berserker, 1, 6290, 300
-Tamamo Cat, Berserker, 3, 9026, 800
-Orion, Archer, 2, 11107, 1200
-Elisabeth Bathory (Halloween), Caster, 1, 8616, 300
-David, Archer, 1, 7736, 800
-Hektor, Lancer, 1, 6928, 400
-Francis Drake, Rider, 1, 11326, 400
-Anne Bonny & Mary Read, Rider, 3, 9029, 1600
-Okita Souji, Saber, 3, 12068, 1200
-Oda Nobunaga, Archer, 1, 9494, 300
-Scathach, Lancer, 3, 11375, 1600
-Diarmuid Ua Duibhne, Lancer, 3, 6877, 1600
-Fergus mac Roich, Saber, 1, 7460, 400
-Altria Pendragon (Santa Alter), Rider, 1, 9258, 450
-Nursery Rhyme, Caster, 2, 8629, 600
-Jack the Ripper, Assassin, 3, 11557, 1400
-Mordred, Saber, 1, 11723, 400
-Nikola Tesla, Archer, 1, 11781, 400
-Altria Pendragon (Lancer Alter), Lancer, 1, 9968, 400
-Paracelsus von Hohenheim, Caster, 2, 6711, 400
-Charles Babbage, Caster, 1, 5996, 400
-Frankenstein, Berserker, 3, 9441, 900
-Arjuna, Archer, 1, 12342, 400
-Karna, Lancer, 1, 11976, 400
-Mysterious Heroine X, Assassin, 3, 11761, 1600
-Fionn mac Cumhaill, Lancer, 2, 8930, 600
-Brynhild, Lancer, 1, 11432, 800
-Beowulf, Berserker, 1, 10247, 700
-Nero Claudius (Bride), Saber, 2, 11607, 1200
-Ryougi Shiki (Saber), Saber, 2, 10721, 600
-Ryougi Shiki (Assassin), Assassin, 2, 8867, 1200
-Amakusa Shirou, Ruler, 1, 10972, 400
-Astolfo, Rider, 3, 8937, 800
-Kid Gilgamesh, Archer, 1, 7696, 400
-Edmond Dantes, Avenger, 3, 12641, 800
-Cu Chulainn (Alter), Berserker, 1, 12805, 800
-Queen Medb, Rider, 1, 10296, 800
-Helena Blavatsky, Caster, 2, 8629, 600
-Rama, Saber, 1, 9854, 800
-Li Shuwen, Lancer, 2, 9653, 1200
-Thomas Edison, Caster, 2, 7952, 600
-Geronimo, Caster, 2, 6857, 600
-Billy the Kid, Archer, 3, 6890, 1600
-Jeanne d'Arc (Alter), Avenger, 1, 13244, 800
-Iskandar, Rider, 1, 11560, 400
-EMIYA (Assassin), Assassin, 2, 8958, 1200
-Hassan of the Hundred Personas, Assassin, 2, 6686, 1200
-Shuten-Douji, Assassin, 2, 11993, 600
-Xuanzang Sanzang, Caster, 1, 11658, 800
-Minamoto-no-Raikou, Berserker, 1, 11556, 400
-Sakata Kintoki (Rider), Rider, 3, 9819, 1200
-Ibaraki-Douji, Berserker, 1, 9636, 600
-Fuuma Kotarou, Assassin, 3, 7091, 800
-Ozymandias, Rider, 1, 11971, 800
-Altria Pendragon (Lancer), Lancer, 1, 10995, 300
-Nitocris, Caster, 2, 9060, 600
-Lancelot (Saber), Saber, 2, 9949, 900
-Tristan, Archer, 3, 9735, 1600
-Gawain, Saber, 1, 10173, 300
-Hassan of the Serenity, Assassin, 2, 6636, 1200
-Tawara Touta, Archer, 1, 7032, 400
-Bedivere, Saber, 1, 7627, 800
-Leonardo Da Vinci, Caster, 2, 10598, 600
-Tamamo-no-Mae (Lancer), Lancer, 1, 10726, 600
-Altria Pendragon (Archer), Archer, 2, 11276, 900
-Marie Antoinette (Caster), Caster, 2, 9060, 450
+Name, Class, CardType, Atk, NpPerc, Target
+Altria Pendragon, Saber, 1, 11221, 400, AoE
+Altria Pendragon (Alter), Saber, 1, 10248, 450, AoE
+Altria Pendragon (Lily), Saber, 1, 7726, 400, AoE
+Nero Claudius, Saber, 2, 9449, 600, AoE
+Siegfried, Saber, 1, 8181, 400, AoE
+Gaius Julius Caesar, Saber, 3, 7497, 1600, ST
+Altera, Saber, 1, 12343, 400, AoE
+EMIYA, Archer, 1, 9398, 400, AoE
+Gilgamesh, Archer, 1, 12280, 400, AoE
+Robin Hood, Archer, 2, 6715, 900, ST
+Atalante, Archer, 3, 8633, 800, AoE
+Euryale, Archer, 2, 7032, 1200, ST
+Arash, Archer, 1, 5816, 800, ST
+Cu Chulainn, Lancer, 3, 7239, 1600, ST
+Elisabeth Bathory, Lancer, 1, 9122, 400, AoE
+Cu Chulainn (Prototype), Lancer, 3, 7082, 1600, ST
+Romulus, Lancer, 1, 7239, 300, AoE
+Medusa, Rider, 3, 7200, 800, AoE
+Georgios, Rider, 2, 5236, 900, ST
+Edward Teach, Rider, 1, 6188, 400, AoE
+Ushiwakamaru, Rider, 3, 7076, 1600, ST
+Alexander, Rider, 3, 7356, 800, AoE
+Marie Antoinette, Rider, 3, 8293, 800, AoE
+Saint Martha, Rider, 1, 8014, 400, AoE
+Medea, Caster, 2, 7418, 600, AoE
+Gilles de Rais (Caster), Caster, 1, 6514, 300, AoE
+William Shakespeare, Caster, 1, 5798, 400, AoE
+Mephistopheles, Caster, 1, 6839, 400, AoE
+Cu Chulainn (Caster), Caster, 1, 6580, 400, AoE
+Sasaki Kojirou, Assassin, 3, 5735, 1600, ST
+Hassan of the Cursed Arm, Assassin, 3, 6280, 1600, ST
+Jing Ke, Assassin, 3, 7207, 1600, ST
+Charles-Henri Sanson, Assassin, 1, 5456, 800, ST
+Phantom of the Opera, Assassin, 2, 5654, 600, ST
+Carmilla, Assassin, 1, 9408, 800, ST
+Heracles, Berserker, 1, 10655, 600, ST
+Lancelot, Berserker, 3, 10477, 600, AoE
+Lu Bu Fengxian, Berserker, 1, 8119, 600, ST
+Spartacus, Berserker, 1, 5073, 400, AoE
+Sakata Kintoki, Berserker, 1, 12712, 800, ST
+Vlad III, Berserker, 2, 11499, 1200, ST
+Darius, Berserker, 1, 7608, 400, AoE
+Kiyohime, Berserker, 1, 6644, 300, AoE
+Eric Bloodaxe, Berserker, 1, 6290, 300, AoE
+Tamamo Cat, Berserker, 3, 9026, 800, AoE
+Orion, Archer, 2, 11107, 1200, ST
+Elisabeth Bathory (Halloween), Caster, 1, 8616, 300, AoE
+David, Archer, 1, 7736, 800, ST
+Hektor, Lancer, 1, 6928, 400, AoE
+Francis Drake, Rider, 1, 11326, 400, AoE
+Anne Bonny & Mary Read, Rider, 3, 9029, 1600, ST
+Okita Souji, Saber, 3, 12068, 1200, ST
+Oda Nobunaga, Archer, 1, 9494, 300, AoE
+Scathach, Lancer, 3, 11375, 1600, ST
+Diarmuid Ua Duibhne, Lancer, 3, 6877, 1600, ST
+Fergus mac Roich, Saber, 1, 7460, 400, AoE
+Altria Pendragon (Santa Alter), Rider, 1, 9258, 450, AoE
+Nursery Rhyme, Caster, 2, 8629, 600, AoE
+Jack the Ripper, Assassin, 3, 11557, 1400, ST
+Mordred, Saber, 1, 11723, 400, AoE
+Nikola Tesla, Archer, 1, 11781, 400, AoE
+Altria Pendragon (Lancer Alter), Lancer, 1, 9968, 400, AoE
+Paracelsus von Hohenheim, Caster, 2, 6711, 400, AoE
+Charles Babbage, Caster, 1, 5996, 400, AoE
+Frankenstein, Berserker, 3, 9441, 900, AoE
+Arjuna, Archer, 1, 12342, 400, AoE
+Karna, Lancer, 1, 11976, 400, AoE
+Mysterious Heroine X, Assassin, 3, 11761, 1600, ST
+Fionn mac Cumhaill, Lancer, 2, 8930, 600, AoE
+Brynhild, Lancer, 1, 11432, 800, ST
+Beowulf, Berserker, 1, 10247, 700, ST
+Nero Claudius (Bride), Saber, 2, 11607, 1200, ST
+Ryougi Shiki (Saber), Saber, 2, 10721, 600, AoE
+Ryougi Shiki (Assassin), Assassin, 2, 8867, 1200, ST
+Amakusa Shirou, Ruler, 1, 10972, 400, AoE
+Astolfo, Rider, 3, 8937, 800, AoE
+Kid Gilgamesh, Archer, 1, 7696, 400, AoE
+Edmond Dantes, Avenger, 3, 12641, 800, AoE
+Cu Chulainn (Alter), Berserker, 1, 12805, 800, ST
+Queen Medb, Rider, 1, 10296, 800, ST
+Helena Blavatsky, Caster, 2, 8629, 600, AoE
+Rama, Saber, 1, 9854, 800, ST
+Li Shuwen, Lancer, 2, 9653, 1200, ST
+Thomas Edison, Caster, 2, 7952, 600, AoE
+Geronimo, Caster, 2, 6857, 600, AoE
+Billy the Kid, Archer, 3, 6890, 1600, ST
+Jeanne d'Arc (Alter), Avenger, 1, 13244, 800, ST
+Iskandar, Rider, 1, 11560, 400, AoE
+EMIYA (Assassin), Assassin, 2, 8958, 1200, ST
+Hassan of the Hundred Personas, Assassin, 2, 6686, 1200, ST
+Shuten-Douji, Assassin, 2, 11993, 600, AoE
+Xuanzang Sanzang, Caster, 1, 11658, 800, ST
+Minamoto-no-Raikou, Berserker, 1, 11556, 400, AoE
+Sakata Kintoki (Rider), Rider, 3, 9819, 1200, ST
+Ibaraki-Douji, Berserker, 1, 9636, 600, ST
+Fuuma Kotarou, Assassin, 3, 7091, 800, AoE
+Ozymandias, Rider, 1, 11971, 800, ST
+Altria Pendragon (Lancer), Lancer, 1, 10995, 300, AoE
+Nitocris, Caster, 2, 9060, 600, AoE
+Lancelot (Saber), Saber, 2, 9949, 900, ST
+Tristan, Archer, 3, 9735, 1600, ST
+Gawain, Saber, 1, 10173, 300, AoE
+Hassan of the Serenity, Assassin, 2, 6636, 1200, ST
+Tawara Touta, Archer, 1, 7032, 400, AoE
+Bedivere, Saber, 1, 7627, 800, ST
+Leonardo Da Vinci, Caster, 2, 10598, 600, AoE
+Tamamo-no-Mae (Lancer), Lancer, 1, 10726, 600, ST
+Altria Pendragon (Archer), Archer, 2, 11276, 900, ST
+Marie Antoinette (Caster), Caster, 2, 9060, 450, AoE
 Anne Bonny & Mary Read (Archer), Archer, 1, 9446, 600
 Mordred (Rider), Rider, 2, 9212, 450
 Scathach (Assassin), Assassin, 3, 9049, 600
@@ -303,3 +303,4 @@ Don Quixote, Lancer, 3, 8643, 1200
 Zhang Jiao, Caster, 3, 6744, 600
 Kyokutei Bakin, Rider, 2, 10723, 450
 Minamoto No Tametomo, Archer, 1, 12465, 300
+Archetype Earth, Moon Cancer, 1, 11601, 300
