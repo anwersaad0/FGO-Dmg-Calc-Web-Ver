@@ -109,6 +109,13 @@ button {
     height: 280px;
 }
 
+#picFrame {
+    background-color: gray;
+    height: 48px;
+    width: 48px;
+    margin-bottom: 18px;
+}
+
 h1 {
     -webkit-text-stroke: 2px black;
     font-size: 56px;

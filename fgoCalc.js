@@ -24,6 +24,7 @@ npMult, npPerc, defPerc, effMod, traitPerc, npTraitPerc, manEarthSkyMod;
 const servantSelector = document.getElementById('servants');
 const classSelector = document.getElementById('servantClass');
 const cardTypeSelector = document.getElementById('cardtype');
+const npLevelSelector = document.getElementById('npLevel');
 const effSelector = document.getElementById('effective');
 const manEarthSkySelector = document.getElementById('manEarthSky');
 
@@ -52,12 +53,13 @@ overallDmgEntry.value = 0;
 //end of establishing html imports
 
 //establish servant class
-function Servant(sName, sClass, card, atk, np1) {
+function Servant(sName, sClass, card, atk, np1, target) {
     this.sName = sName;
     this.sClass = sClass;
     this.card = card;
     this.atk = atk;
     this.np1 = np1;
+    this.target = target;
 }
 
 //establish functions
@@ -112,6 +114,13 @@ function changeCard() {
 }
 
 cardTypeSelector.addEventListener('change', changeCard);
+
+/*
+function changeNpLevel() {
+    for (let i = 0; i < servants.length; i++) {
+        if 
+    }
+} */
 
 function changeEff() {
     if (effSelector.value == "Effective") {
@@ -179,12 +188,10 @@ async function getServantData() {
     table.forEach(row => {
         const comp = row.split(',');
 
-        servants.push(new Servant(comp[0], comp[1].trimStart(), comp[2], comp[3], comp[4]));
+        servants.push(new Servant(comp[0], comp[1].trimStart(), comp[2], comp[3], comp[4], comp[5].trimStart()));
 
     });
     
-    
-
 }
 
 classSelector.addEventListener('change', function(e) {
